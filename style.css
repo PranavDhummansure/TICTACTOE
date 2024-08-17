@@ -1,21 +1,39 @@
 * {
     margin: 0;
     padding: 0;
+    
   }
   
   body {
-    background-color: #ca05a9;
+   
     text-align: center;
+    
+    background: linear-gradient(to top,green,rgb(79, 219, 79))
+    
   }
-  
+
   .container {
     height: 70vh;
     display: flex;
   
     justify-content: center;
     align-items: center;
+    
   }
-  
+  .fun{
+    height: 30vh;
+    width: 20vw;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 12vh;
+    margin-left: 20vw;
+  }
+  .fun img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+  }
   .game {
     height: 60vmin;
     width: 60vmin;
@@ -24,6 +42,13 @@
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
   }
   
   .box {
@@ -73,3 +98,284 @@
   .hide {
     display: none;
   }
+  .imh{
+    height: 23vh;
+    width: 12vw;
+    
+   
+   
+    position: absolute;
+   margin-right: 39%;
+    margin-top: 45vh;
+    right: 0;
+    
+    
+
+}
+.imh img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.imj{
+    height: 40vh;
+    width: 20vw;
+    
+    border-radius: 50%;
+    margin-left: 0;
+    position: absolute;
+   margin-right: 7%;
+    margin-top: 35vh;
+    right: 0;
+    
+    
+
+}
+.imj img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.imk {
+
+ height: 40vh;
+    width: 25vw;
+    
+    border-radius: 50%;
+    margin-right: 23%;
+    position: absolute;
+   bottom: 0;
+   right: 0;
+    margin-bottom: 14vh;
+
+}
+.imk img {
+    height: 100%;
+    width: 100%;
+    background-image: cover;
+ 
+ }
+ .iml {
+    height: 20vh;
+    width: 10vw;
+    
+    border-radius: 50%;
+    margin-right: 14%;
+    position: absolute;
+   margin-top: 27vh;
+   right: 0;
+  
+   
+
+}
+.iml img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+
+}
+.imz{
+    height: 40vh;
+    width: 29vw;
+    
+    border-radius: 50%;
+    
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 38.4vh;
+   
+
+
+}
+.imz img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.imx {
+    height: 60vh;
+    width: 23vw;
+    
+    border-radius: 50%;
+    margin-top: 20vh;
+    position: absolute;
+    margin-left: 76%;
+    margin-top: 30vh;
+    
+
+}
+.imx img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.jogfalls {
+    height: 18vh;
+    width: 95vw;
+    margin: 2.7vh 2vw;
+    
+}
+.mass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.qmj{
+    height: 10vh;
+    width: 5vw;
+    
+    border-radius: 50%;
+    margin-left: 0;
+    position: absolute;
+   margin-right: 82%;
+    margin-top: 7vh;
+    right: 0;
+    
+    
+
+}
+.qmj img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.wmk {
+
+ height: 10vh;
+    width: 7vw;
+    
+    border-radius: 50%;
+    margin-right: 65%;
+    position: absolute;
+   bottom: 0;
+   right: 0;
+    margin-bottom: 0.6vh;
+
+}
+.wmk img {
+    height: 100%;
+    width: 100%;
+    background-image: cover;
+ 
+ }
+ .eml {
+    height: 10vh;
+    width: 7vw;
+    
+    border-radius: 50%;
+    margin-right: 49%;
+    position: absolute;
+   margin-top: 7vh;
+   right: 0;
+  
+   
+
+}
+.eml img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+
+}
+.rmz{
+    height: 17vh;
+    width: 12vw;
+    
+    border-radius: 50%;
+    
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 4vh;
+   
+
+
+}
+.rmz img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.tmx {
+    height: 20vh;
+    width: 10vw;
+    
+    border-radius: 50%;
+    margin-top: 20vh;
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 2.4vh;
+    
+
+}
+.tmx img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.qmj h3 {
+    color: #000;
+    margin-left: -7vw;
+    position: absolute;
+    margin-top: 4vh;
+    
+
+}
+.wmk h3 {
+    color: #000;
+    margin-left: -7vw;
+    position: absolute;
+    margin-top: 4vh;
+    
+
+}
+.eml h3 {
+    color: #000;
+    margin-left: -7vw;
+    position: absolute;
+    margin-top: 4vh;
+    
+
+}
+.rmz h3 {
+    color: #000;
+    margin-left: -1.9vw;
+    position: absolute;
+    margin-top: 7.6vh;
+    
+
+}
+.tmx h3 {
+    color: #000;
+    margin-left: -2.8vw;
+    position: absolute;
+    margin-top: 8.9vh;
+    
+
+}
+.jogfalls h2 {
+    position: absolute;
+    padding-left: 42%;
+    padding-top: 3vh;
+    text-decoration: underline;
+    color: #000;
+}
+.jogfalls h3 i {
+    
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
